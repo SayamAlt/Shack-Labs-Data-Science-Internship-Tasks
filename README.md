@@ -128,16 +128,16 @@ require pandas >= |PandasMinVersion|, some examples require seaborn >=
 ### User installation
 ~~~~~~~~~~~~~~~~~
 
-If you already have a working installation of numpy and scipy,
-the easiest way to install scikit-learn is using ``pip``::
+<p>If you already have a working installation of numpy and scipy,
+the easiest way to install scikit-learn is using ``pip``::</p>
 
     pip install -U scikit-learn
 
-or ``conda``::
+<p>or ``conda``::</p>
 
     conda install -c conda-forge scikit-learn
 
-The documentation includes more detailed `installation instructions <https://scikit-learn.org/stable/install.html>`_.
+<p>The documentation includes more detailed `installation instructions <https://scikit-learn.org/stable/install.html>`_.</p>
 
 ## Installation of Sentence Transformers for Task 2: Product Matching
 
