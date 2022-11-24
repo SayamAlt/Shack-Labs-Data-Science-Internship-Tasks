@@ -126,7 +126,6 @@ require pandas >= |PandasMinVersion|, some examples require seaborn >=
 |SeabornMinVersion| and plotly >= |PlotlyMinVersion|.
 
 ### User installation
-~~~~~~~~~~~~~~~~~
 
 <p>If you already have a working installation of numpy and scipy,
 the easiest way to install scikit-learn is using ``pip``::</p>
