@@ -49,55 +49,55 @@ The assumptions associated with regression modeling and machine learning in gene
   </tr>
   <tr>
     <td>Extra Trees Regressor</td>
-    <td>81.64%</td>
+    <td>81.64</td>
   </tr>
   <tr>
     <td>Cat Boost Regressor</td>
-    <td>81.39%</td>
+    <td>81.39</td>
   </tr>
   <tr>
     <td>Gradient Boosting Regressor</td>
-    <td>78.96%</td>
+    <td>78.96</td>
   </tr>
   <tr>
     <td>XG Boost Regressor</td>
-    <td>72.87%</td>
+    <td>72.87</td>
   </tr>
   <tr>
     <td>Random Forest Regressor</td>
-    <td>75.49%</td>
+    <td>75.49</td>
   </tr>
   <tr>
     <td>Decision Tree Regressor</td>
-    <td>63.80%</td>
+    <td>63.80</td>
   </tr>
   <tr>
     <td>K Nearest Neighbors Regressor</td>
-    <td>57.61%</td>
+    <td>57.61</td>
   </tr>
   <tr>
     <td>Support Vector Regressor</td>
-    <td>59.28%</td>
+    <td>59.28</td>
   </tr>
   <tr>
     <td>Light Gradient Boosting Regressor</td>
-    <td>74.72%</td>
+    <td>74.72</td>
   </tr>
   <tr>
     <td>Bagging Regressor</td>
-    <td>74.82%</td>
+    <td>74.82</td>
   </tr>
   <tr>
     <td>Linear Regression</td>
-    <td>64.39%</td>
+    <td>64.39</td>
   </tr>
   <tr>
     <td>Multi-Layer Perceptron Regressor</td>
-    <td>51.15%</td>
+    <td>51.15</td>
   </tr>
   <tr>
     <td>Histogram Gradient Boosting Regressor</td>
-    <td>78.42%</td>
+    <td>78.42</td>
   </tr>
 </table>
 
