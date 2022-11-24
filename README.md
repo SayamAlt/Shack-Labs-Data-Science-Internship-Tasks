@@ -101,6 +101,46 @@ The assumptions associated with regression modeling and machine learning in gene
   </tr>
 </table>
 
+## Installation of Scikit-learn for Task 1: House Price Prediction
+
+Dependencies
+~~~~~~~~~~~~
+
+scikit-learn requires:
+
+- Python (>= |PythonMinVersion|)
+- NumPy (>= |NumPyMinVersion|)
+- SciPy (>= |SciPyMinVersion|)
+- joblib (>= |JoblibMinVersion|)
+- threadpoolctl (>= |ThreadpoolctlMinVersion|)
+
+=======
+
+**Scikit-learn 0.20 was the last version to support Python 2.7 and Python 3.4.**
+scikit-learn 1.0 and later require Python 3.7 or newer.
+scikit-learn 1.1 and later require Python 3.8 or newer.
+
+Scikit-learn plotting capabilities (i.e., functions start with ``plot_`` and
+classes end with "Display") require Matplotlib (>= |MatplotlibMinVersion|).
+For running the examples Matplotlib >= |MatplotlibMinVersion| is required.
+A few examples require scikit-image >= |Scikit-ImageMinVersion|, a few examples
+require pandas >= |PandasMinVersion|, some examples require seaborn >=
+|SeabornMinVersion| and plotly >= |PlotlyMinVersion|.
+
+User installation
+~~~~~~~~~~~~~~~~~
+
+If you already have a working installation of numpy and scipy,
+the easiest way to install scikit-learn is using ``pip``::
+
+    pip install -U scikit-learn
+
+or ``conda``::
+
+    conda install -c conda-forge scikit-learn
+
+The documentation includes more detailed `installation instructions <https://scikit-learn.org/stable/install.html>`_.
+
 ## Installation of Sentence Transformers for Task 2: Product Matching
 
 We recommend **Python 3.6** or higher, **[PyTorch 1.6.0](https://pytorch.org/get-started/locally/)** or higher and **[transformers v4.6.0](https://github.com/huggingface/transformers)** or higher. The code does **not** work with Python 2.7.
