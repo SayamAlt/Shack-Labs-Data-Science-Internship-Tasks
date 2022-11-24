@@ -114,8 +114,6 @@ scikit-learn requires:
 - joblib (>= |JoblibMinVersion|)
 - threadpoolctl (>= |ThreadpoolctlMinVersion|)
 
-=======
-
 **Scikit-learn 0.20 was the last version to support Python 2.7 and Python 3.4.**
 scikit-learn 1.0 and later require Python 3.7 or newer.
 scikit-learn 1.1 and later require Python 3.8 or newer.
@@ -127,7 +125,7 @@ A few examples require scikit-image >= |Scikit-ImageMinVersion|, a few examples
 require pandas >= |PandasMinVersion|, some examples require seaborn >=
 |SeabornMinVersion| and plotly >= |PlotlyMinVersion|.
 
-User installation
+### User installation
 ~~~~~~~~~~~~~~~~~
 
 If you already have a working installation of numpy and scipy,
