@@ -101,9 +101,7 @@ The assumptions associated with regression modeling and machine learning in gene
   </tr>
 </table>
 
-## Installation of Scikit-learn for Task 1: House Price Prediction
-
-Installation
+Installation of Scikit-learn for Task 1: House Price Prediction
 ------------
 
 scikit-learn requires:
