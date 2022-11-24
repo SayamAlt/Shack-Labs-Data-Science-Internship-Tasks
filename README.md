@@ -29,16 +29,17 @@ Completed the following 2 tasks as part of Shack Labs DS Internship Assignment:
 
 ## Machine Learning Models Performance Comparison for Task 1: House Price Prediction
 
-**Underlying Assumptions for Regression Modeling Approach**
+**Drawbacks of Underlying Assumptions for Machine Learning**
 
-The assumptions associated with regression modeling are as follows:
+The assumptions associated with regression modeling and machine learning in general are as follows:
 
 <ul>
-  <li>There should be a linear and additive relationship between dependent (response) variable and independent (predictor) variable(s). A linear relationship suggests that a change in response Y due to one unit change in X is constant, regardless of the value of X. An additive relationship suggests that the effect of X on Y is independent of other variables.</li>
   <li>Multicollinearity : There is minimal or no multicollinearity among the independent variables. It usually requires a large sample size to predict properly. It assumes the observations to be independent of each other.</li>
   <li>Homoscedasticity: The variance of residual should be the same for any value of X.</li>
   <li>Observations are assumed to be independent of each other.</li>
   <li>For most of the machine learning algorithms such as Linear Regression and many clustering algorithms, normal distribution is necessary for producing better outcomes.</li>
+  <li>Unstability: Tree-based models are relatively unstable. A small change in the data can cause a large change in the structure of the decision tree causing instability.</li>
+  <li>Non-scalability: Several boosting models such as XGBoost and Gradient Boosting models are very sensitive to outliers since every classifier is forced to fix the errors in the predecessor learners. The overall method is hardly scalable. Moreover, they don't perform well enough on sparse and unstructured data due to their internal working and underlying assumptions.</li>
 </ul>
 
 <table>
