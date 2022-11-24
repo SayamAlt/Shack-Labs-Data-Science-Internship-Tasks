@@ -127,12 +127,12 @@ require pandas >= |PandasMinVersion|, some examples require seaborn >=
 
 ### User installation
 
-<p>If you already have a working installation of numpy and scipy,
-the easiest way to install scikit-learn is using `pip`:</p>
+If you already have a working installation of numpy and scipy,
+the easiest way to install scikit-learn is using `pip`:
 
     pip install -U scikit-learn
 
-<p>or `conda`:</p>
+or `conda`:
 
     conda install -c conda-forge scikit-learn
 
