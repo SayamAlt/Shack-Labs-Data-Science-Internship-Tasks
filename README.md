@@ -29,7 +29,7 @@ Completed the following 2 tasks as part of Shack Labs DS Internship Assignment:
 
 ## Machine Learning Models Performance Comparison for Task 1: House Price Prediction
 
-**Drawbacks of Underlying Assumptions for Machine Learning**
+**Drawbacks related to Underlying Assumptions of Machine Learning Algorithms**
 
 The assumptions associated with regression modeling and machine learning in general are as follows:
 
