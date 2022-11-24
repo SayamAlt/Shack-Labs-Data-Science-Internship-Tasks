@@ -106,9 +106,6 @@ The assumptions associated with regression modeling and machine learning in gene
 Installation
 ------------
 
-Dependencies
-~~~~~~~~~~~~
-
 scikit-learn requires:
 
 - Python (>= |PythonMinVersion|)
