@@ -27,12 +27,12 @@ Completed the following 2 tasks as part of Shack Labs DS Internship Assignment:
   <li>Pandas</li>
 </ul>
 
-## Machine Learning Model Performance Comparison for Task 1
+## Machine Learning Models Performance Comparison for Task 1
 
 <table>
   <tr>
     <th>Model</th>
-    <th>R2 Score</th>
+    <th>R2 Score (%)</th>
   </tr>
   <tr>
     <td>Extra Trees Regressor</td>
