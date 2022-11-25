@@ -103,7 +103,7 @@ The assumptions associated with regression modeling and machine learning in gene
 
 ## Techniques for Semantic Comparison of Amazon and Flipkart product names
 
-<p>Similarity measures that can be used for performing semantic comparison of two text documents are as follows:</p>
+<p>Appropriate techniques that can be adopted for performing semantic comparison of two text documents are as follows:</p>
 
 <ul>
   <li>Jaccard Index: Jaccard index, also known as Jaccard similarity coefficient,  treats the data objects like sets. It is defined as the size of the intersection of two sets divided by the size of the union.</li>
@@ -115,9 +115,11 @@ The assumptions associated with regression modeling and machine learning in gene
     <li>A similarity measure for vectors</li>
   </ol></li>
   <li>Document Centroid Vector: The simplest way to compute the similarity between two documents using word embeddings is to compute the document centroid vector. This is the vector that’s the average of all the word vectors in the document. Since word embeddings have a fixed size, we’ll end up with a final centroid vector of the same size for each document which we can then use with cosine similarity.</li>
-  <li>Word Embeddings: Word embeddings are high-dimensional vectors that represent words. We can create them in an unsupervised way from a collection of documents, in general using neural networks, by analyzing all the contexts in which the word occurs. This results in vectors that are similar (according to cosine similarity) for words that appear in similar contexts, and thus have a similar meaning. For example, since the words “teacher” and “professor” can sometimes be used interchangeably, their embeddings will be close together. For this reason, using word embeddings can enable us to handle synonyms or words with similar meaning in the computation of similarity, which we couldn’t do by using word frequencies.</li>
+  <li>Word2Vec: It is a predictive method for forming word embeddings. Unlike the previous methods that need to be “trained” on the working corpus, Word2Vec is a pre-trained two-layer neural network. It takes as input the text corpus and outputs a set of feature vectors that represent words in that corpus. Word2Vec is used in spaCy to create word vectors. We can look up the embedding vector for the `Doc` or individual tokens using the `.vector` attribute. The result is a n-dimensional vector of a sentence passed as input. We can use these vectors to calculate the cosine similarity of any two texts which we want to match for semantic resemblance. Spacy's `doc` object has its own `similarity` method that calculates the cosine similarity.</li>
   <li>Sentence Transformers: Sentence-BERT (SBERT) is a modified BERT network that uses siamese and triplet network structures to derive semantically meaningful sentence embeddings. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT, while maintaining the accuracy from BERT. </li>
 </ul>
+
+<p>I used the technique of Sentence Transformers due to the fact that it not only produces state-of-the-art performance in computing semantic similarity between any two text documents but also takes lesser training times in comparison to standard BERT models.</p>
 
 Installation of Scikit-learn for Task 1: House Price Prediction
 ------------
