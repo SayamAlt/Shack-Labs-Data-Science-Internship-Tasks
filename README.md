@@ -119,7 +119,7 @@ The assumptions associated with regression modeling and machine learning in gene
   <li>Sentence Transformers: Sentence-BERT (SBERT) is a modified BERT network that uses siamese and triplet network structures to derive semantically meaningful sentence embeddings. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT, while maintaining the accuracy from BERT. </li>
 </ul>
 
-<p>I used the technique of Sentence Transformers due to the fact that it not only produces state-of-the-art performance in computing semantic similarity between any two text documents but also takes lesser training times in comparison to standard BERT models.</p>
+<p>I used the technique of Sentence Transformers due to the fact that it not only produces state-of-the-art performance in computing semantic similarity between any two text documents but also takes lesser training times in comparison to standard BERT models which are computationally very expensive.</p>
 
 Installation of Scikit-learn for Task 1: House Price Prediction
 ------------
