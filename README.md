@@ -101,6 +101,24 @@ The assumptions associated with regression modeling and machine learning in gene
   </tr>
 </table>
 
+## Techniques for Semantic Comparison of Amazon and Flipkart product names
+
+<p>Similarity measures that can be used for performing semantic comparison of two text documents are as follows:</p>
+
+<ul>
+  <li>Jaccard Index: Jaccard index, also known as Jaccard similarity coefficient,  treats the data objects like sets. It is defined as the size of the intersection of two sets divided by the size of the union.</li>
+  <li>Euclidean Distance: Euclidean distance, or L2 norm, is the most commonly used form of the Minkowski distance. It uses the Pythagoras theorem to calculate the distance between two points.</li>
+  <li>Cosine Similarity: Cosine Similarity computes the similarity of two vectors as the cosine of the angle between two vectors. It determines whether two vectors are pointing in roughly the same direction. So if the angle between the vectors is 0 degrees, then the cosine similarity is 1.</li>
+  <li>Document Vector: The traditional approach to compute text similarity between documents is to do so by transforming the input documents into real-valued vectors. The goal is to have a vector space where similar documents are “close”, according to a chosen similarity measure. This approach takes the name of Vector Space Model, and it’s very convenient because it allows us to use simple linear algebra to compute similarities. We just have to define two things: 
+  <ol type='i'>
+    <li>A way of transforming documents into vectors</li>
+    <li>A similarity measure for vectors</li>
+  </ol></li>
+  <li>Document Centroid Vector: The simplest way to compute the similarity between two documents using word embeddings is to compute the document centroid vector. This is the vector that’s the average of all the word vectors in the document. Since word embeddings have a fixed size, we’ll end up with a final centroid vector of the same size for each document which we can then use with cosine similarity.</li>
+  <li>Word Embeddings: Word embeddings are high-dimensional vectors that represent words. We can create them in an unsupervised way from a collection of documents, in general using neural networks, by analyzing all the contexts in which the word occurs. This results in vectors that are similar (according to cosine similarity) for words that appear in similar contexts, and thus have a similar meaning. For example, since the words “teacher” and “professor” can sometimes be used interchangeably, their embeddings will be close together. For this reason, using word embeddings can enable us to handle synonyms or words with similar meaning in the computation of similarity, which we couldn’t do by using word frequencies.</li>
+  <li>Sentence Transformers: Sentence-BERT (SBERT) is a modified BERT network that uses siamese and triplet network structures to derive semantically meaningful sentence embeddings. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT, while maintaining the accuracy from BERT. </li>
+</ul>
+
 Installation of Scikit-learn for Task 1: House Price Prediction
 ------------
 
